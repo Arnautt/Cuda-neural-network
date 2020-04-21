@@ -5,4 +5,6 @@ One layer neural network class in C++ from scratch, for illustration purpose onl
 
 - Command line to compile the code :
 
-```console nvcc nn.cu main.cu -o nn.exe ```
+```console
+nvcc nn.cu main.cu -o nn.exe
+```
