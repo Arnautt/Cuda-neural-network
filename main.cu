@@ -10,9 +10,9 @@ int main(void){
 
 
   // Constant initialization
-  const int n = 20000; // nb of training examples
+  const int n = 40000; // nb of training examples
   const int d = 25; // dimension of variables
-  const int dim_h = 150; // nb of hidden units
+  const int dim_h = 400; // nb of hidden units
   const int niter = 1000; // number of iteration for gradient descent
   const double lr = .2; // learning rate
   const int freq_show = 100; // frequence to show iteration and precision
