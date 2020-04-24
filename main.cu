@@ -10,12 +10,12 @@ int main(void){
 
 
   // Constant initialization
-  const int n = 50000; // nb of training examples
+  const int n = 20000; // nb of training examples
   const int d = 25; // dimension of variables
-  const int dim_h = 1500; // nb of hidden units
-  const int niter = 20; // number of iteration for gradient descent
+  const int dim_h = 150; // nb of hidden units
+  const int niter = 1000; // number of iteration for gradient descent
   const double lr = .2; // learning rate
-  const int freq_show = 1; // frequence to show iteration and precision
+  const int freq_show = 100; // frequence to show iteration and precision
 
 
   // Train a neural network with GPU acceleration
